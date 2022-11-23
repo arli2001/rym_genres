@@ -5,7 +5,7 @@ const body = document.getElementById("body");
 
 const xhr = new XMLHttpRequest("");
 xhr.onload = showGenres;
-xhr.open("GET", "/result.json")
+xhr.open("GET", "result.json")
 xhr.send()
 
 function showGenres(e) {
