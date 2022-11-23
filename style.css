@@ -22,12 +22,7 @@
 @media screen and (max-width: 480px) {
     .elem {
         width: 100%;
-    }
-    
-    @keyframes zoomin {
-        to {
-            width: 100%;
-        }
+        animation-name: zoomin_mobile;
     }
 }
 
@@ -40,6 +35,21 @@
     }
     to {
         width: 19%;
+        height: auto;
+        opacity: 100%;
+        font-size: 100%;
+    }
+}
+
+@keyframes zoomin_mobile {
+    from {
+        width:0%;
+        height:0%;
+        opacity: 0%;
+        font-size: 0%;
+    }
+    to {
+        width: 100%;
         height: auto;
         opacity: 100%;
         font-size: 100%;
