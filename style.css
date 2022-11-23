@@ -23,6 +23,12 @@
     .elem {
         width: 100%;
     }
+    
+    @keyframes zoomin {
+        to {
+            width: 100%;
+        }
+    }
 }
 
 @keyframes zoomin {
