@@ -19,6 +19,12 @@
     margin-bottom: 1%;
 }
 
+@media screen and (max-width: 480px) {
+    .elem {
+        width: 100%;
+    }
+}
+
 @keyframes zoomin {
     from {
         width:0%;
